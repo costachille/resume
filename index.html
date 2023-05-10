@@ -4,11 +4,113 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Costa Chille House</title>
-    <meta description="a-frame">
-    <meta keywords="country house,chill house">
+    <meta name="keywords" content="costa, cv, resume">
+    <meta name="description" content="Это сайт - резюме Константина Попова">
+    <title>Costa Resume</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1></h1>
+
+    <div class="container">
+
+        <div class="info">
+            <img src="https://sun9-17.userapi.com/impg/c857628/v857628766/13b026/3gZaKRW-mAc.jpg?size=1620x2160&quality=96&sign=4f7a63265da2348be898dd355b4816bc&type=album" alt="моя ава" class="avatar">
+
+            <div class="info-text">
+                <h1>Константин Попов</h1>
+        
+                <p>Я, начинающий <strong><em>веб-программист</em></strong>. Очень хочу изучить эту нишу и <strong>зарабатывать</strong>. </p>
+            
+                <p>Пишу музыку, <em>занимаюсь</em> спортом.</p>
+            
+                <h4>Список социальных сетей:</h4>
+            
+                <a href="https://www.instagram.com/" target="_blank">instagram</a>
+                |
+                <a href="https://web.telegram.org/" target="_blank">telegram</a>
+                |
+                <a href="https://www.youtube.com/?hl=RU" target="_blank">youtube</a>
+            </div>    
+        </div>
+
+        <div class="card bg-yellow">
+            <h2>Мои хобби</h2>
+            <ol class="list">
+                <li>Музыка</li>
+                <li>блоггинг</li>
+                <li>Хоккей</li>
+                <li>Горные лыжи</li>
+                <li>ММА</li>
+            </ol>
+        </div>
+
+        <div class="card bg-red">
+        <h2>Опыт работы</h2>
+
+            <table class="table">
+                <!-- <thead>
+                    <tr>
+                        <th>Название</th>
+                        <th>Должность</th>
+                        <th>Год</th>
+                    </tr>
+                </thead> -->
+                <tbody>
+                    <tr>
+                        <td>ИАЗ</td>
+                        <td>Оператор станка</td>
+                        <td>2021 - сейчас</td>
+                    </tr>
+                    <tr>
+                        <td>Фармасинтез</td>
+                        <td>Укладчик упаковщик</td>
+                        <td>2018 - 2019</td>
+                    </tr>
+                    <tr>
+                        <td>Groovy</td>
+                        <td>Диджей</td>
+                        <td>2021 - сейчас</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="card bg-blue">
+            <h2>Мои проекты</h2>
+
+            <ul class="link-list">
+                <li>
+                    <a href="https://www.spotify.com/int/why-not-available/">Spotify</a>
+                </li>
+            </ul>
+        </div>
+
+
+        <form action="/" class="form">
+            <h2>Связаться со мной</h2>
+
+            <div class="form-row">
+
+                <div class="form-group">
+                    <label for="name">Ваше имя:</label>
+                    <input type="text" id="name" placeholder="Введите ваше имя">
+                    
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Ваш email:</label>
+                    <input type="email" id="email" placeholder="Введите email">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="massage">Ваше сообщение:</label>
+                <textarea id="massage" cols="20" rows="5" placeholder="Введите сообщение..."></textarea>
+            </div>
+
+            <input class="btn" type="submit" value="Отправить!">
+        </form>
+
+    </div>
 </body>
 </html>
